@@ -1,9 +1,59 @@
-h1{
-    text-align: center; font-size: 60px; font-weight: bold; color: black; text-transform: capitalize;
+body {
+    background-image: url("banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-table{
-    background-color: aqua; border-collapse: separate;
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+    text-transform: capitalize;
+    text-shadow: 5px 2px 4px grey;
+}
+h2 {
+    text-transform: capitalize;
+    color: black;
+    text-decoration: underline;
+}
+.table {
+    position: relative;
+    top: 30px;
+    left: 100px;
+}
+table, th, td {
+    border: 5px inset grey;
+    border-radius: 5px;
+    table-layout: auto;
+    border-spacing: 10px 20px;
+    empty-cells: hide;
+    background-color: #FFFFCC;
+}
+.hobbies{
+    position: absolute;
+    border: 5px inset grey;
+    border-radius: 5px;
+    padding: 5px;
+    top: 227px;
+    left: 350px;
+    text-indent: -70px;
+    background-color: #CCFFCC;
 }
 .list{
-    list-style-type:circle; list-style-position:inside; text-alignalign: center}
+    list-style-type:circle;
+    list-style-position:inside;
+    text-indent: 10px;
+    padding-bottom: 42px;
+}
+h4{
+    position: absolute;
+    border: 5px inset grey;
+    border-radius: 5px;
+    padding: 5px;
+    top: 205px;
+    left: 728px;
+    right: 100px;
+    text-indent: 390px;
+    background-color: #99FFFF;
+    padding-bottom: 230px;
 }
