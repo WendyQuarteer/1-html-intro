@@ -5,5 +5,5 @@ table{
     background-color: aqua; border-collapse: separate;
 }
 .list{
-    list-style-type:circle; list-style-position:inside;}
+    list-style-type:circle; list-style-position:inside; text-alignalign: center}
 }
