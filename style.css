@@ -3,7 +3,7 @@ body {
     background-size: cover;
     background-repeat: repeat;
 }
-h1{
+h1 {
     text-align: center;
     font-size: 60px;
     font-weight: bold;
@@ -11,6 +11,9 @@ h1{
     text-transform: capitalize;
     text-shadow: 5px 2px 4px grey;
 }
+.animate{
+}
+
 h2 {
     text-transform: capitalize;
     color: black;
@@ -36,7 +39,7 @@ table, th, td {
     border-radius: 5px;
     padding: 5px;
     top: 227px;
-    left: 394px;
+    left: 383px;
     right: 407px;
     bottom: 180px;
     text-indent: -70px;
