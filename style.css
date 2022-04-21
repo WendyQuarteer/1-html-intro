@@ -1,7 +1,7 @@
 body {
     background-image: url("banner.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 }
 h1{
     text-align: center;
@@ -27,7 +27,8 @@ table, th, td {
     table-layout: auto;
     border-spacing: 10px 20px;
     empty-cells: hide;
-    background-color: #FFFFCC;
+    background-color: black;
+    color: white;
 }
 .hobbies{
     position: absolute;
@@ -37,7 +38,8 @@ table, th, td {
     top: 227px;
     left: 350px;
     text-indent: -70px;
-    background-color: #CCFFCC;
+    background-color: black;
+    color: white;
 }
 .list{
     list-style-type:circle;
@@ -53,7 +55,36 @@ h4{
     top: 205px;
     left: 728px;
     right: 100px;
-    text-indent: 390px;
-    background-color: #99FFFF;
-    padding-bottom: 230px;
+    text-align: center;
+    word-wrap: break-word;
+    background-color: black;
+    color: white;
+    padding-bottom: 212px;
 }
+.story{
+    position: absolute;
+    border: 5px inset grey;
+    border-radius: 5px;
+    padding: 5px;
+    top: 508px;
+    right: 100px;
+    left: 108px;
+    text-align: center;
+    word-wrap: break-word;
+    background-color: black;
+    color: white;
+}
+.others{
+    position: absolute;
+    border: 5px inset grey;
+    border-radius: 5px;
+    padding: 5px;
+    top: 700px;
+    right: 100px;
+    left: 108px;
+    text-align: center;
+    word-wrap: break-word;
+    background-color: black;
+    color: white;
+}
+
