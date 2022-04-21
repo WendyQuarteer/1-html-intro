@@ -87,7 +87,7 @@ table, th, td {
     border: 5px inset grey;
     border-radius: 5px;
     padding: 5px;
-    top: 435px;
+    top: 500px;
     right: -5px;
     left: -625px;
     text-align: center;
@@ -96,19 +96,47 @@ table, th, td {
     color: white;
 }
 button{
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
+    background-color: white;
+    border: 5px inset grey;
+    color: black;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
 }
 #vlad{
     float: left;
+    border-radius: 8px;
+    width: 150px;
 }
+#vlad:hover{
+    color: blue;
+    text-transform: capitalize;
+}
+
 #yasser{
     float: right;
+    border-radius: 8px;
+    width: 150px;
+}
+#yasser:hover{
+    color: blue;
+    text-transform: capitalize;
+}
+#wendy{
+    float: none;
+    border-radius: 8px;
+    width: 150px;
+}
+#batwoman{
+    border: 5px inset grey;
+    border-radius: 8px;
+    float: right;
+    position: relative;
+    top: -40px;
+}
+h6{
+    text-indent: 120px;
 }
 
