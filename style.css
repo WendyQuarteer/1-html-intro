@@ -47,28 +47,34 @@ table, th, td {
     text-indent: 10px;
     padding-bottom: 42px;
 }
-h4{
+.buddy{
     position: absolute;
     border: 5px inset grey;
     border-radius: 5px;
-    padding: 5px;
-    top: 205px;
+    padding: 2px;
+    top: 227px;
     left: 728px;
     right: 100px;
+    bottom: 180px;
     text-align: center;
     word-wrap: break-word;
     background-color: black;
     color: white;
-    padding-bottom: 212px;
+}
+#me{
+    border: 5px inset grey;
+    border-radius: 20px;
+    position: relative;
+    top: -35px;
 }
 .story{
     position: absolute;
     border: 5px inset grey;
     border-radius: 5px;
     padding: 5px;
-    top: 508px;
-    right: 100px;
-    left: 108px;
+    top: 275px;
+    left: -625px;
+    right: -5px;
     text-align: center;
     word-wrap: break-word;
     background-color: black;
