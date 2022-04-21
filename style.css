@@ -36,7 +36,7 @@ table, th, td {
     border-radius: 5px;
     padding: 5px;
     top: 227px;
-    left: 402px;
+    left: 394px;
     right: 407px;
     bottom: 180px;
     text-indent: -70px;
@@ -87,12 +87,28 @@ table, th, td {
     border: 5px inset grey;
     border-radius: 5px;
     padding: 5px;
-    top: 700px;
-    right: 100px;
-    left: 108px;
+    top: 435px;
+    right: -5px;
+    left: -625px;
     text-align: center;
     word-wrap: break-word;
     background-color: black;
     color: white;
+}
+button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#vlad{
+    float: left;
+}
+#yasser{
+    float: right;
 }
 
