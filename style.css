@@ -1,3 +1,6 @@
+*{
+   box-sizing: border-box;
+}
 body {
     background-image: url("banner.jpg");
     background-size: cover;
@@ -11,37 +14,42 @@ h1 {
     text-transform: capitalize;
     text-shadow: 5px 2px 4px grey;
 }
-.animate{
-}
-
 h2 {
     text-transform: capitalize;
+    text-align: center;
     color: black;
     text-decoration: underline;
 }
-.table {
-    position: relative;
-    top: 30px;
-    left: 100px;
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
-table, th, td {
+.table {
+    width: 25%;
+    padding:15px;
+    float: left;
     border: 5px inset grey;
     border-radius: 5px;
-    table-layout: auto;
-    border-spacing: 10px 20px;
-    empty-cells: hide;
     background-color: black;
+}
+table{
+    width: 100%;
+    padding: 55px 0;
+}
+tr, td {
+    border: 5px inset grey;
+    border-radius: 5px;
+    border-spacing: 2px 2px;
+    empty-cells: hide;
     color: white;
 }
 .hobbies{
-    position: absolute;
+    width: 25%;
+    float: left;
+    padding: 15px;
     border: 5px inset grey;
     border-radius: 5px;
-    padding: 5px;
-    top: 227px;
-    left: 383px;
-    right: 407px;
-    bottom: 180px;
     text-indent: -70px;
     background-color: black;
     color: white;
@@ -53,14 +61,11 @@ table, th, td {
     padding-bottom: 42px;
 }
 .buddy{
-    position: absolute;
+    width: 50%;
+    float: left;
     border: 5px inset grey;
     border-radius: 5px;
-    padding: 2px;
-    top: 227px;
-    left: 728px;
-    right: 100px;
-    bottom: 180px;
+    padding: 15px;
     text-align: center;
     word-wrap: break-word;
     background-color: black;
@@ -68,31 +73,23 @@ table, th, td {
 }
 #me{
     border: 5px inset grey;
-    border-radius: 20px;
-    position: relative;
-    top: -35px;
 }
+
 .story{
-    position: absolute;
+    width: 100%;
     border: 5px inset grey;
     border-radius: 5px;
-    padding: 5px;
-    top: 275px;
-    left: -625px;
-    right: -5px;
+    padding: 15px;
     text-align: center;
     word-wrap: break-word;
     background-color: black;
     color: white;
 }
 .others{
-    position: absolute;
+    width: 100%;
     border: 5px inset grey;
     border-radius: 5px;
-    padding: 5px;
-    top: 500px;
-    right: -5px;
-    left: -625px;
+    padding: 15px;
     text-align: center;
     word-wrap: break-word;
     background-color: black;
@@ -128,18 +125,12 @@ button{
     text-transform: capitalize;
 }
 #wendy{
-    float: none;
     border-radius: 8px;
     width: 150px;
 }
 #batwoman{
     border: 5px inset grey;
-    border-radius: 8px;
-    float: right;
-    position: relative;
-    top: -40px;
+    border-radius: 5px;
 }
-h6{
-    text-indent: 120px;
-}
+
 

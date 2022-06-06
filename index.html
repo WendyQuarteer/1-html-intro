@@ -2,71 +2,88 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Wendy Quarteer">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Wendy Quarter</title>
 </head>
 <body>
-<h1 class="animate">Wendy Quarteer</h1>
-<h2 align="center">You can have data without information but you can't have information without data.</h2>
-<div class="table">
-<table>
-    <tr>
-        <td>Birthday</td>
-        <td colspan="2">13/09</td>
-    </tr>
-    <tr>
-        <td>Gender</td>
-        <td colspan="2">Female</td>
-    </tr>
-    <tr>
-        <td>Favorite color</td>
-        <td colspan="2">Green</td>
-    </tr>
-    <tr>
-        <td>Favorite food</td>
-        <td colspan="2">Sushi</td>
-    </tr>
-    <tr>
-        <td>Pineapple on pizza:</td>
-        <td colspan="2"><input type="radio" id="Yes" name="pizza" value="pineapple">
-            <label for="pineapple">Yes</label>
-            <input type="radio" id="No" name="pizza" value="without">
-            <label for="without">No</label></td>
-    </tr>
-</table>
+<header>
+    <h1 class="animate">Wendy Quarteer</h1>
+    <h2><q><i>You can have data without information, but you can't have information without data.</i></q></h2>
+</header>
+<div class="container">
+    <div class="table">
+        <table>
+            <tr>
+                <td>Birthday</td>
+                <td colspan="2">13/09</td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td colspan="2">Female</td>
+            </tr>
+            <tr>
+                <td>Favorite color</td>
+                <td colspan="2">Green</td>
+            </tr>
+            <tr>
+                <td>Favorite food</td>
+                <td colspan="2">Sushi</td>
+            </tr>
+            <tr>
+                <td>Pineapple on pizza:</td>
+                <td colspan="2">
+                    <input type="radio" id="pineapple" name="pizza" value="pineapple">
+                    <label for="pineapple">Yes</label>
+                    <input type="radio" id="without" name="pizza" value="without">
+                    <label for="without">No</label>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="hobbies">
+        <h3 align="center">Hobbies</h3>
+        <div class="list">
+            <ul>
+                <li>Listen to music</li>
+                <li>Travel</li>
+                <li>Watch my boys breakdance</li>
+                <ul>
+                    <li>At home</li>
+                    <li>Battles</li>
+                </ul>
+                <li>Play with "Haruki" the dog</li>
+                <li>And the list goes on...</li>
+            </ul>
+        </div>
+    </div>
+    <div class="buddy">
+        <h4>You can count on me. I will always do my best to help you where I can.</h4></br>
+        <a> <img id="me" src="wenke.jpg" alt="me" height="190">
+        </a>
+    </div>
 </div>
-<div class="hobbies">
-<h3 align="center">Hobbies</h3>
-<div class="list">
-<ul>
-    <li>Listen to music</li>
-    <li>Travel</li>
-    <li>Watch my boys breakdance</li>
-        <ul>
-            <li>At home</li>
-            <li>Battles</li>
-        </ul>
-    <li>Play with "Haruki" the dog</li>
-    <li>And the list goes on...</li>
-</ul>
 </div>
-</div>
-<div class="buddy">
-    <h4>You can count on me.  I will always do my best to help you where I can.</h4></br>
-    <a> <img id="me" src="Wenke.jpg" alt="me" height="190"></img>
-    </a>
 <div class="story">
     <h5 align="center">Funny story about me</h5>
-    <p align="center">Once I was bitten by a monkey.  Another time I was hit in the face by a flying
-    bat while swimming.</p>
-    <p id="result">What happened next?  Well.. Now I'm Batwoman!</p>
-    <a> <img id="batwoman" src="batwoman.gif" alt=""batwoman" height= "120"></a>
+    <p align="center">Once I was bitten by a monkey. Another time I was hit in the face by a flying
+        bat while swimming.</p>
+    <p id="result">What happened next? Well.. Now I'm Batwoman!</p>
+    <a> <img id="batwoman" src="batwoman.gif" alt="batwoman" height="120"></a>
     <h6>Animals love me but have a weird way of showing it :-)</h6>
 </div>
 <div class="others">
-<a href="https://vladburlacu.github.io/html-introduction/"><button id="vlad"> previous</button></a>
+    <a href="https://vladburlacu.github.io/html-introduction/">
+        <button id="vlad"> previous</button>
+    </a>
     <button id="wendy">Wendy
-        <a href="https://yasserb94.github.io/beCodeDay2HTML-CSS/ "><button id="yasser">next</button></button></a>
+        <a href="https://yasserb94.github.io/beCodeDay2HTML-CSS/ ">
+            <button id="yasser">next</button>
+        </a>
+    </button>
 </div>
+</div>
+
 </body>
 </html>
